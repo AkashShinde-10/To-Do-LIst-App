@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, rgba(153, 220, 226, 0.867), #e765cf);
+}
+
+.container h1{
+  width: 200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.inner_container{
+  width: max(40vw, 200px);
+  height: min(70vh,);
+  margin: auto;
+  padding: 20px 30px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+.inner_container .inbtn{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 13px 16px;
+}
+
+.inner_container input{
+  border-radius: 8px;
+  border: none;
+  padding: 8px 10px;
+  flex-grow: 1;
+  font-weight: 700;
+}
+
+.inbtn button{
+  background-color: rgb(48, 142, 237);
+  border-radius: 8px;
+  padding: 12px 22px;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+}
+
+.inbtn button:hover{
+  background-color: rgb(34, 39, 130);
+  color:white;
+}
+
+ul{
+  margin: 15px 20px;
+}
+
+ul li{
+  list-style: none;
+  padding:5px;
+  font-size: 20px;
+  font-weight: 550;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+li button{
+  border: none;
+  background-color: rgb(236, 117, 117);
+  padding: 5px 8px;
+  font-weight: 600;
+  border-radius: 7px;
+}
+
+li button:hover{
+  background-color: rgb(204, 47, 47);
+  cursor: pointer;
+}
+
